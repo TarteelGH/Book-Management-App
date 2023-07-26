@@ -1,7 +1,9 @@
 # Book-Management-App 📚
-## 
+
+### The first project for the gaza sky geeks express training. The requirements were creating apis that can put,post,delete, and get for a book management scenario.
 ‏
-### Design and develop a REST API using Express.js and TypeScript for a book management system. The API should allow users to perform CRUD operations on books stored in a JSON file and provide additional functionality for querying books by name or publishing year. The API should support the following functionalities:
+#### Design and develop a REST API using Express.js and TypeScript for a book management system. The API should allow users to perform CRUD operations on books stored in a JSON file and provide additional functionality for querying books by name or publishing year. The API should support the following functionalities:
+
 
 - Retrieve all books: Implement a GET route to fetch all books from the JSON file and return them as a JSON response.
 - Retrieve a specific book: Implement a GET route that accepts a book ID as a path parameter and returns the corresponding book details from the JSON file.

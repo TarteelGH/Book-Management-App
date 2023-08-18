@@ -1,0 +1,24 @@
+{
+  "name": "books-api-project",
+  "version": "1.0.0",
+  "description": "test express and typeScript by building a REST-full api",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build-tsc": "tsc -w",
+    "run-watch": "nodemon ./dist",
+    "dev": "concurrently \"npm run build-tsc\" \"npm run run-watch\""
+  },
+  "author": "shadi-almohtaseb",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "concurrently": "^8.2.0",
+    "typescript": "^5.1.6"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "books-api-project",
+  "name": "Book-Management-App",
   "version": "1.0.0",
   "description": "test express and typeScript by building a REST-full api",
   "main": "./dist/index.js",

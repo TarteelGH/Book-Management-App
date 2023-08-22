@@ -7,6 +7,7 @@
   "scripts": {
     "build-tsc": "tsc -w",
     "run-watch": "nodemon ./dist",
+    "build": "tsc",
     "dev": "concurrently \"npm run build-tsc\" \"npm run run-watch\""
   },
   "author": "shadi-almohtaseb",
